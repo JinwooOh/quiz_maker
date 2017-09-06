@@ -78,7 +78,7 @@ var view = {
 	   		wrong3Li.textContent = question.wrong3;
 	   		
 	   		//add lists to questiondiv to show on html
-	   		questionDiv.appendChild(questionLi);
+	   		
 	   		var qSet = [answerLi, wrong1Li, wrong2Li, wrong3Li];
 	   		
 	   		//shuffle the array
@@ -89,13 +89,13 @@ var view = {
 			    }
 			}
 			shuffle(qSet);
-
+			questionDiv.appendChild(questionLi);
 	    	qSet.forEach(function(item){
 	    		questionDiv.appendChild(item);
 	    	});
 
 	   		questionDiv.appendChild(nextButton);
-	    	quiz.movingToNextQuestion();
+	    	
     	});
 
 	},
