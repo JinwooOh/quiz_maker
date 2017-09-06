@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="style.css"> 
+<script src="quiz.js"></script>
+</head>
+<body>
+	<h1>Quiz</h1>
+		<div class = "addQuestion">
+			
+			<input id="questionInput" type = "text" placeholder="Your Question"><br>
+			<input id="correctAnswer" type = "text" placeholder="Correct Answer">
+			<input id="wrongAnswer1" type = "text" placeholder="Wrong Answer" >
+			<input id="wrongAnswer2" type = "text" placeholder="Wrong Answer" >
+			<input id="wrongAnswer3" type = "text" placeholder="Wrong Answer" >
+			<button onclick="handler.addQuestion()">Add Question</button>
+			
+		</div>
+		<div class = "info">
+			<button onclick="view.displayQuestions()">Start Quiz</button>
+			<p id = numOfQuestions>You have 0 question</p>
+		</div>
+	    <div class="questionsWrapper"></div>
+</body>
+
+</html>
