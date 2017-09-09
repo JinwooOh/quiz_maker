@@ -1,5 +1,4 @@
-
-![alt text](https://user-images.githubusercontent.com/28660183/30243263-9530a32a-956b-11e7-8e0c-e12bcd3fb272.png)
+<img align="center" src="https://user-images.githubusercontent.com/28660183/30243263-9530a32a-956b-11e7-8e0c-e12bcd3fb272.png"  height="300" weight="420" >
 
 # quiz_maker
 
