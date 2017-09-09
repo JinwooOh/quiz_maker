@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="utf-8">
 <link type="text/css" rel="stylesheet" href="style.css"> 
 <script src="quiz.js"></script>
 </head>
 <body>
-	<h1>Quiz</h1>
+	<br>
+	<h1>Quiz Maker</h1><hr>
+
 		<div class = "addQuestion">
-			
 			<input id="questionInput" type = "text" placeholder="Your Question"><br>
-			<input id="correctAnswer" type = "text" placeholder="Correct Answer">
-			<input id="wrongAnswer1" type = "text" placeholder="Wrong Answer" >
-			<input id="wrongAnswer2" type = "text" placeholder="Wrong Answer" >
-			<input id="wrongAnswer3" type = "text" placeholder="Wrong Answer" >
-			<button onclick="handler.addQuestion()">Add Question</button>
+			<div class="row">
+				<div class="col-sm-12">
+				<input id="correctAnswer" type = "text" placeholder="Correct Answer">
+				</div>
+				<div class="col-sm-12">
+				<input id="wrongAnswer1" type = "text" placeholder="Wrong Answer" >
+				</div>
+				<div class="col-sm-12">
+				<input id="wrongAnswer2" type = "text" placeholder="Wrong Answer" >
+				</div>
+				<div class="col-sm-12">
+				<input id="wrongAnswer3" type = "text" placeholder="Wrong Answer" >
+				</div>
+			</div>
+			<button onclick="handler.addQuestion()" class="btn btn-secondary">Add Question</button><hr>
+
 			
 		</div>
 		<div class = "info">
-			<button onclick="view.displayQuestions()">Start Quiz</button>
+			<button onclick="view.displayQuestions()" class="btn btn-secondary">Start Quiz</button>
 			<p id = numOfQuestions>You have 0 question</p>
 		</div>
+		<p class="answersCorrect"></p>
 	    <div class="questionsWrapper"></div>
 </body>
 

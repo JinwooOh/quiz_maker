@@ -1,3 +1,60 @@
-html{
-  background-color: #35d69b;
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #1a92ba;
 }
+
+h1{
+	text-align: center;
+	font-size: 40px;	
+}
+
+.questionsWrapper div.is-active{
+  display: block;
+}
+.questionsWrapper div{
+  display: none;
+  position: absolute;
+}
+
+.addQuestion{
+	text-align: center;
+}
+
+.addQuestion #questionInput{
+	height: 50px;
+
+}
+
+
+.info{
+	text-align: center;	
+}
+
+.answersCorrect{
+	text-align: center;		
+}
+.questionDiv{
+  margin: 20px auto;
+  text-align: center;
+  width: 100%;
+}
+.questionDiv li{
+  list-style-type: none;
+}
+.info li{
+  list-style-type: none;
+}
+
+
+button{
+	margin: 10px;
+}
+
+input{
+	margin: 3px;
+}
+
