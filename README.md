@@ -1,7 +1,7 @@
 
 ![alt text](https://user-images.githubusercontent.com/28660183/30243263-9530a32a-956b-11e7-8e0c-e12bcd3fb272.png)
 
-# quiz_maker (unfinished)
+# quiz_maker
 
 ## Purpose of the project
 
